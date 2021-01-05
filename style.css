@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.upper-cut{
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 140px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.middle-cut{
+    height: 500px;
+    padding-bottom: 140px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+
+.first-img{
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.red-highlight{
+    color: red;
+}
+
+.link-button{
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,  rgb(233, 164, 16) , red);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.link-button:hover{
+    color: black;
+    background-image: linear-gradient(to right,  rgb(35, 199, 240) , rgb(39, 218, 68));
+    font-weight: 700;
+    font-size: 20px;
+}
+
+p{
+    color: dimgray;
+    text-align: justify;
+}
+
+.Experience{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+}
+
+.full-stack{
+    padding-right: 5px;
+    border-width: 4px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+        to bottom, 
+        red, 
+        rgba(64, 233, 13, 0)
+        ) 1 100%;
+}
+
+.baby-dev{
+    padding-right: 5px;
+    border-width: 4px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+        to bottom, 
+        rgb(132, 0, 255), 
+        #dceb0fe8
+        ) 1 100%;
+}
+
+footer p{
+    text-align: center;
+}
